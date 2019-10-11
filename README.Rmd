@@ -1,0 +1,51 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# standist
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of standist is to ...
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("jmgirard/standist")
+```
+## Example
+
+```{r}
+library(standist)
+d_student_t(x = -10:10, nu = 3, mu = 0, sigma = 2)
+```
+
+```{r}
+visualize("student_t(3, 0, 2", xlim = c(-10, 10))
+```
+
+```{r}
+visualize("student_t(3, 0, 2", "student_t(1, 0, 2)", xlim = c(-10, 10))
+```
+
+
+## Contributor Code of Conduct
+
+Please note that the 'standist' project is released with a
+[Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md).
+By contributing to this project, you agree to abide by its terms.
