@@ -9,7 +9,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100%"
+  out.width = "80%"
 )
 ```
 
@@ -36,11 +36,11 @@ d_student_t(x = -10:10, nu = 3, mu = 0, sigma = 2)
 ```
 
 ```{r}
-visualize("student_t(3, 0, 2", xlim = c(-10, 10))
+visualize("student_t(3, 0, 2)", xlim = c(-10, 10))
 ```
 
 ```{r}
-visualize("student_t(3, 0, 2", "student_t(1, 0, 2)", xlim = c(-10, 10))
+visualize("student_t(3, 0, 2)", "student_t(1, 0, 2)", xlim = c(-10, 10))
 ```
 
 

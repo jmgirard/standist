@@ -32,16 +32,16 @@ d_student_t(x = -10:10, nu = 3, mu = 0, sigma = 2)
 ```
 
 ``` r
-visualize("student_t(3, 0, 2", xlim = c(-10, 10))
+visualize("student_t(3, 0, 2)", xlim = c(-10, 10))
 ```
 
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="80%" />
 
 ``` r
-visualize("student_t(3, 0, 2", "student_t(1, 0, 2)", xlim = c(-10, 10))
+visualize("student_t(3, 0, 2)", "student_t(1, 0, 2)", xlim = c(-10, 10))
 ```
 
-<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="80%" />
 
 ## Contributor Code of Conduct
 
