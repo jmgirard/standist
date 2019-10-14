@@ -71,3 +71,9 @@ visualize <- function(..., xlim = c(-10, 10)) {
   # Return the complete ggplot object
   p
 }
+
+#' @export
+visualize.brmsprior <- function(prior, xlim = c(-10, 10)) {
+  d_i <- prior$prior
+  visualize(d_i, xlim = xlim)
+}
