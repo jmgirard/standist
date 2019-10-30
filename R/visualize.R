@@ -73,7 +73,13 @@ visualize <- function(..., xlim = c(-10, 10)) {
 }
 
 #' @export
-visualize.brmsprior <- function(prior, xlim = c(-10, 10)) {
-  d_i <- prior$prior
-  visualize(d_i, xlim = xlim)
+visualize.brmsprior <- function(prior, xlim = c(-10, 10), index = NULL) {
+  all_d <- prior$prior
+  if (is.null(index)) {
+    for (i in seq_along(all_d)) {
+      visualize(all_d[[i]], xlim = xlim)
+    }
+  } else {
+    visualize(all_d[[index]], xlim = xlim)
+  }
 }
