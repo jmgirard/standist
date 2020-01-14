@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of standist is to ...
+The goal of standist is to provide functions to easily calculate and visualize the probability density functions of the distributions supported by the Stan platform for probabilistic computing (using the same names and parameterizations as Stan). These functions should be helpful for pedagogical purposes (e.g., learning about the distributions and their parameters) as well as for selecting prior distributions for Bayesian data analyses.
 
 ## Installation
 
@@ -43,6 +43,10 @@ visualize("student_t(3, 0, 2)", xlim = c(-10, 10))
 visualize("student_t(3, 0, 2)", "student_t(1, 0, 2)", xlim = c(-10, 10))
 ```
 
+
+```{r}
+visualize("normal(0, 2)", "student_t(1, 0, 2)", xlim = c(-10, 10))
+```
 
 ## Contributor Code of Conduct
 
