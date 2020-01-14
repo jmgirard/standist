@@ -9,13 +9,15 @@ Authors@R:
            comment = c(ORCID = "0000-0002-7359-3746"))
 Description: What the package does (one paragraph).
 License: GPL-3
-Suggests: 
-    testthat
-Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.1.1
 Imports: 
     assertthat,
     ggplot2,
-    stringr
+    rstan,
+    stringr,
+    VGAM
+Suggests: 
+    testthat (>= 2.1.0)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
