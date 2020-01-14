@@ -12,6 +12,6 @@ standist provides functions for using and visualizing Stan distributions.
 Description
 }
 \author{
-\strong{Maintainer}: Jeffrey Girard \email{me@jmgirard.com} (0000-0002-7359-3746)
+\strong{Maintainer}: Jeffrey Girard \email{me@jmgirard.com} (\href{https://orcid.org/0000-0002-7359-3746}{ORCID})
 
 }
